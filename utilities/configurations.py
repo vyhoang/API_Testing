@@ -7,5 +7,7 @@ def getConfig():
     return config
 
 
-def getPassword():
-    return "abcd"
+def gitLogin_auth():
+    gitUser = 'vyhoang'
+    gitToken = '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'
+    return gitUser, gitToken

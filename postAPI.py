@@ -39,9 +39,11 @@ from API_Testing.utilities.configurations import *
 
 # Authentication
 url = 'https://api.github.com/user'
-github_response = requests.get(url, verify=False, auth=('vyhoang', getPassword()))
+github_response = requests.get(url, verify=False, auth=(gitLogin_auth()))
 print(github_response.status_code)
+print(github_response.text)
 
 url2 = 'https://api.github.com/user/repos'
-response = requests.get(url2, auth=('vyhoang', getPassword()))
+response = requests.get(url2, auth=(gitLogin_auth()))
 print(response.status_code)
+print(response.text)
