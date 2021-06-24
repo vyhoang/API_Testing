@@ -36,6 +36,6 @@ behave (use Cucumber components).
     
     . In Powershell, run command to generate Allure report from json to html: `allure serve %allure_result_folder%`
  
-  **4. Work with csv package**
+  **4. CSV package**
  
  
