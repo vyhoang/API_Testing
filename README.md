@@ -41,3 +41,6 @@ behave (use Cucumber components).
  - Write data to csv file: writer()
  - Get value using index: index()
  
+ **5. Web Scrapping with BeautifulSoup**
+ - Extract list text from the website
+ - Extract sub urls
