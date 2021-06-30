@@ -22,8 +22,8 @@ connect_config = {
 
 # method to authenticate git login
 def auth_gitLogin():
-    gitUser = 'vyhoang'
-    gitToken = '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'
+    gitUser = getConfig()['gitHub']['gitUser']
+    gitToken = getConfig()['gitHub']['gitToken']
     return gitUser, gitToken
 
 
